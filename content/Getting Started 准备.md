@@ -189,7 +189,7 @@ Hello, world!
 
 现在，让我们回过头来仔细看看你的“Hello, world!”程序到底发生了什么。这里是拼图的第一片：
 
-+[code](https://play.rust-lang.org/?code=fn%20main()%20%7B%0A%0A%7D%0A)
++[code](https://play.rust-lang.org/?code=fn%20main(%20%7B%0A%0A%7D%0A%20%7B%0A%0A%7D%0A)
 
 ```rust
 fn main() {
