@@ -167,7 +167,7 @@ $ cd hello_world
 
 现在打开你刚创建的`main.rs`源文件，键入如下代码：
 
-+[code](https://play.rust-lang.org/?code=fn%20main()%20%7B%0A%20%20%20%20println!(%22Hello%2C%20world!%22)%3B%0A%7D%0A)
++[code](https://play.rust-lang.org/?code=fn%20main%28%29%20%7B%0A%20%20%20%20println!%28%22Hello%2C%20world!%22%29%3B%0A%7D%0A)
 
 ```rust
 fn main() {
@@ -189,7 +189,7 @@ Hello, world!
 
 现在，让我们回过头来仔细看看你的“Hello, world!”程序到底发生了什么。这里是拼图的第一片：
 
-+[code](https://play.rust-lang.org/?code=fn%20main(%20%7B%0A%0A%7D%0A%20%7B%0A%0A%7D%0A)
++[code](https://play.rust-lang.org/?code=fn%20main%28%29%20%7B%0A%0A%7D%0A)
 
 ```rust
 fn main() {
@@ -203,7 +203,7 @@ fn main() {
 
 在`main()`函数中：
 
-+[code](https://play.rust-lang.org/?code=fn%20main()%20%7B%0A%20%20%20%20%20%20%20%20println!(%22Hello%2C%20world!%22)%3B%0A%20%20%20%20%0A%7D)
++[code](https://play.rust-lang.org/?code=fn%20main%28%29%20%7B%0A%20%20%20%20%20%20%20%20println!%28%22Hello%2C%20world!%22%29%3B%0A%20%20%20%20%0A%7D)
 
 ```rust
     println!("Hello, world!");
